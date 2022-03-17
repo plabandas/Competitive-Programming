@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.cpp": "cpp",
+    "*.tcc": "cpp",
+    "barrier": "cpp",
+    "chrono": "cpp",
+    "random": "cpp",
+    "latch": "cpp",
+    "limits": "cpp",
+    "semaphore": "cpp",
+    "valarray": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled",
+  "terminal.integrated.allowMnemonics": true
+}
