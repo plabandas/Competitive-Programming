@@ -10,7 +10,8 @@
     "semaphore": "cpp",
     "valarray": "cpp",
     "cmath": "cpp",
-    "complex": "cpp"
+    "complex": "cpp",
+    "iostream": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "terminal.integrated.allowMnemonics": true

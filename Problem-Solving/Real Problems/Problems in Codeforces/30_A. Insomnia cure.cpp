@@ -14,14 +14,14 @@ int main()
         i++;
     }
 
-    int j = 1 ; 
+    int j = 1;
     while (e >= b * j)
     {
         s.insert(b * j);
         j++;
     }
 
-    int k = 1 ;
+    int k = 1;
     while (e >= c * k)
     {
         s.insert(c * k);
@@ -35,5 +35,5 @@ int main()
         l++;
     }
 
-    cout << s.size() << endl; 
+    cout << s.size() << endl;
 }
