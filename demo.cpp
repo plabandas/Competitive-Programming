@@ -1,39 +1,15 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
+    int x = 7;
+    int y = ++x  +  ++x;
+    printf("%d %d", x, y);
 
-    int a, b, c, d, e;
-    cin >> a >> b >> c >> d >> e;
+    int a = 3, b = 4 ;
+    a = a == b == 0 ;
+    printf("\n%d %d", a, b);
 
-    set<int> s;
-    int i = 1;
-    while (e >= a * i)
-    {
-        s.insert(a * i);
-        i++;
-    }
-
-    int j = 1 ; 
-    while (e >= b * j)
-    {
-        s.insert(b * j);
-        j++;
-    }
-
-    int k = 1 ;
-    while (e >= c * k)
-    {
-        s.insert(c * k);
-        k++;
-    }
-
-    int l = 1;
-    while (e >= d * l)
-    {
-        s.insert(d * l);
-        l++;
-    }
-
-    cout << s.size() << endl; 
+    return 0;
 }

@@ -11,7 +11,17 @@
     "valarray": "cpp",
     "cmath": "cpp",
     "complex": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ratio": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "variant": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "terminal.integrated.allowMnemonics": true
